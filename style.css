@@ -1,0 +1,686 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+}
+.container {
+  position: relative;
+
+  display: flexbox;
+  background-color: #dc143c;
+  height: 5vh;
+  width: 100%;
+}
+label {
+  position: relative;
+  color: white;
+  left: 5vh;
+  top: 1vh;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 2vh;
+}
+.about-container {
+  position: absolute;
+  top: 10vh;
+  left: 25vw;
+  width: 70%;
+  height: 20vh;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+  display: flex;
+  left: 25vh;
+  position: relative;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.about-container img {
+  position: relative;
+  left: 2.5vw;
+  height: 15vh;
+}
+.mainh {
+  position: relative;
+  left: 8vw;
+  font-size: 6vh;
+}
+.sub {
+  padding-right: 10vw;
+  padding-bottom: 5vh;
+  position: relative;
+  left: 4vw;
+  padding-left: 5vw;
+  font-size: 4vh;
+}
+
+.panel1 {
+  display: flex;
+  position: relative;
+  top: 12vh;
+  width: 100%;
+  height: 5vh;
+  background-color: white;
+  border-radius: 20px;
+  border-width: 1px;
+  border-style: solid;
+  justify-content: center;
+}
+.adv {
+  position: relative;
+  top: 1vh;
+  font-size: x-large;
+}
+.panel2 {
+  display: none;
+  position: relative;
+  top: 13vh;
+  background-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-radius: 1.5vw;
+  padding-left: 2vh;
+  padding-right: 2vh;
+  border-width: 1px;
+  width: 100%;
+  height: auto;
+}
+
+.li:hover {
+  font-size: 20px;
+}
+.phead {
+  padding-top: 1.5vh;
+  padding-bottom: 1.5vh;
+}
+
+.table1 {
+  position: relative;
+  top: 15vh;
+  background-color: white;
+
+  height: auto;
+  padding-bottom: 14vh;
+  width: 100%;
+}
+table {
+}
+td,
+th,
+table {
+  height: 80px;
+  border-collapse: collapse;
+  border-style: solid;
+  border-color: black;
+  border-style: solid;
+  align-content: center;
+}
+td {
+  text-align: center;
+}
+td:hover {
+  border-color: orangered;
+}
+th:hover {
+  border-color: orangered;
+}
+
+.ahead {
+  position: relative;
+  top: 6vh;
+}
+.features {
+  position: relative;
+  width: 100%;
+  background-color: white;
+
+  height: auto;
+  top: 28vh;
+  left: 0vh;
+}
+.li {
+  position: relative;
+  left: 2vh;
+  padding-top: 6vh;
+  padding-bottom: 6vh;
+  padding-left: 2vw;
+  padding-right: 5vw;
+}
+li {
+  padding-bottom: 1vh;
+}
+.fhead {
+  padding-bottom: 4vh;
+}
+.img {
+  position: relative;
+  top: 30vh;
+  left: 19vw;
+  height: 20vh;
+  padding-right: 0vw;
+  padding-left: 10vw;
+  background-color: white;
+  border-radius: 30px;
+  width: 37vh;
+}
+img {
+  height: 46vh;
+}
+
+.img2 {
+  position: relative;
+  background-color: black;
+  padding-bottom: 0vh;
+  border-radius: 30px;
+  height: auto;
+  display: none;
+}
+
+.btn:hover {
+  background-color: white;
+  color: white;
+  border-width: 0.25vh;
+  border-style: solid;
+  border-color: tomato;
+}
+.features {
+  padding-left: 1.5vw;
+}
+.lp {
+  position: relative;
+  left: 60vh;
+  top: 30vh;
+  padding-right: 2vh;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 5vh;
+}
+footer {
+  position: relative;
+  top: 70vh;
+  width: 100%;
+  height: 13vh;
+  background-color: #dc143c;
+  border: 1px black solid;
+}
+.fp {
+  padding-top: 2vh;
+  padding-left: 5vw;
+  color: white;
+}
+.fp1 {
+  padding-left: 5vw;
+  color: white;
+}
+.fp2 {
+  padding-left: 5vw;
+  color: white;
+}
+.fp3 {
+  position: relative;
+  bottom: 1.96vh;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-left: 80vw;
+  color: white;
+  font-size: 2vh;
+  margin-bottom: 1.9vh;
+}
+.alert {
+  position: relative;
+  left: 2vh;
+  font-size: 2vh;
+}
+@media only screen and (min-device-height: 120px) and (max-device-width: 1800px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body,
+  html {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .container {
+    height: 8vh;
+    padding-bottom: 5vh;
+  }
+
+  label {
+    top: 2.5vh;
+    font-size: 3vh;
+  }
+  .about-container {
+    width: 90%;
+    height: 30vh;
+    left: 3.5vh;
+  }
+  .about-container img {
+    height: 15vh;
+  }
+
+  .about-text p:nth-child(3),
+  .about-text p:nth-child(4) {
+    position: relative;
+
+    color: #7e7d7d;
+    font-family: myriad pro;
+    font-size: 1vmax;
+  }
+  .about-text p:nth-child(2) {
+    position: relative;
+
+    color: #3e3d3d;
+    font-size: 1.5vh;
+    font-family: myriad pro;
+    font-weight: bold;
+    line-height: 0px;
+  }
+  .about-text p:nth-child(1) {
+    position: relative;
+
+    color: #403e3e;
+    font-family: myriad pro;
+    line-height: 0px;
+  }
+  .li:hover {
+    color: tomato;
+  }
+  .panel1 {
+    height: 9vh;
+  }
+  .adv {
+    font-size: 2.5vh;
+    padding-top: 1.5vh;
+  }
+  .panel2 {
+    top: 13vh;
+  }
+  td,
+  th,
+  table {
+    position: relative;
+  }
+  .features {
+    width: 100%;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+    padding-left: 1.5vh;
+    left: 0vw;
+  }
+  .sub {
+    font-size: 8vh;
+  }
+  .mainh {
+    padding-left: 1vh;
+    font-size: 3vh;
+  }
+  .img {
+    position: relative;
+    top: 30vh;
+    left: 30vw;
+    background-color: white;
+    border-radius: 30px;
+    padding-left: 0vw;
+  }
+  .img2 {
+    position: relative;
+    background-color: white;
+    bottom: 45vh;
+    border-radius: 30px;
+    padding-bottom: 0vh;
+    display: none;
+  }
+
+  .ft {
+    position: relative;
+    left: 3vw;
+    padding-right: 5vw;
+  }
+  .lp {
+    position: relative;
+    left: 1.5vh;
+    top: 60vh;
+    padding-right: 2vh;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 5vh;
+  }
+  footer {
+    position: relative;
+    top: 60vh;
+    width: 120%;
+    height: 18vh;
+    background-color: #dc143c;
+    border: 1px black solid;
+  }
+}
+
+@media only screen and (min-device-height: 100px) and (max-device-width: 500px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    width: 120%;
+    height: 8vh;
+    padding-bottom: 5vh;
+  }
+  body,
+  html {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  label {
+    top: 2.5vh;
+    font-size: 3vh;
+  }
+  .about-container {
+    width: 90%;
+    height: 40vh;
+    left: 3vh;
+  }
+  .about-container img {
+    height: 15vh;
+  }
+
+  .about-text p:nth-child(3),
+  .about-text p:nth-child(4) {
+    position: relative;
+
+    color: #7e7d7d;
+    font-family: myriad pro;
+    font-size: 1vmax;
+  }
+  .about-text p:nth-child(2) {
+    position: relative;
+
+    color: #3e3d3d;
+    font-size: 1.5vh;
+    font-family: myriad pro;
+    font-weight: bold;
+    line-height: 0px;
+  }
+  .about-text p:nth-child(1) {
+    position: relative;
+
+    color: #403e3e;
+    font-family: myriad pro;
+    line-height: 0px;
+  }
+  .li:hover {
+    color: tomato;
+  }
+  .panel1 {
+    height: 9vh;
+  }
+  .adv {
+    font-size: 2.5vh;
+    padding-top: 1.5vh;
+  }
+  .panel2 {
+    top: 13vh;
+  }
+  td,
+  th,
+  table {
+    position: relative;
+  }
+  .features {
+    width: 100%;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+    padding-left: 1.5vh;
+    left: 0vw;
+  }
+  .sub {
+    font-size: 8vh;
+  }
+  .mainh {
+    padding-left: 1vh;
+    font-size: 3vh;
+  }
+  .img {
+    position: relative;
+    top: 30vh;
+    left: 16vw;
+    background-color: white;
+    border-radius: 30px;
+    padding-left: 0vw;
+  }
+  .img2 {
+    position: relative;
+    background-color: white;
+    bottom: 45vh;
+    border-radius: 30px;
+    padding-bottom: 0vh;
+    display: none;
+  }
+
+  .ft {
+    position: relative;
+    left: 2vw;
+    width: 91%;
+  }
+  .lp {
+    position: relative;
+    left: 1.5vh;
+    top: 60vh;
+    padding-right: 2vh;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 5vh;
+  }
+  footer {
+    position: relative;
+    top: 60vh;
+    width: 100%;
+    height: 18vh;
+    background-color: #dc143c;
+  }
+  .fp3 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    padding-right: 20vh;
+    color: white;
+    font-size: 1vh;
+  }
+  .fp {
+    font-size: 1.5vh;
+    padding-top: 2vh;
+    padding-left: 5vw;
+    color: white;
+  }
+  .fp1 {
+    font-size: 1.5vh;
+    padding-left: 5vw;
+    color: white;
+  }
+  .fp2 {
+    font-size: 1.5vh;
+    padding-left: 5vw;
+    color: white;
+  }
+  .fp3 {
+    font-size: 2vh;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    padding-left: 85 vw;
+    color: white;
+    font-size: 1.35vh;
+  }
+}
+@media only screen and (min-device-height: 100px) and (max-device-width: 800px) {
+  .container {
+    width: 120%;
+    height: 8vh;
+    padding-bottom: 5vh;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    height: auto;
+  }
+  label {
+    top: 2.5vh;
+    font-size: 3vh;
+  }
+  .about-container {
+    width: 90%;
+    height: 40vh;
+    left: 3vh;
+  }
+  .about-container img {
+    height: 15vh;
+  }
+
+  .about-text p:nth-child(3),
+  .about-text p:nth-child(4) {
+    position: relative;
+
+    color: #7e7d7d;
+    font-family: myriad pro;
+    font-size: 1vmax;
+  }
+  .about-text p:nth-child(2) {
+    position: relative;
+
+    color: #3e3d3d;
+    font-size: 1.5vh;
+    font-family: myriad pro;
+    font-weight: bold;
+    line-height: 0px;
+  }
+  .about-text p:nth-child(1) {
+    position: relative;
+
+    color: #403e3e;
+    font-family: myriad pro;
+    line-height: 0px;
+  }
+  .li:hover {
+    color: tomato;
+  }
+  .panel1 {
+    height: 9vh;
+  }
+  .adv {
+    font-size: 2.5vh;
+    padding-top: 1.5vh;
+  }
+  .panel2 {
+    top: 13vh;
+  }
+
+  td,
+  th,
+  table {
+    position: relative;
+  }
+
+  .features {
+    width: 100%;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+    padding-left: 1.5vh;
+    left: 0vw;
+  }
+  .sub {
+    font-size: 8vh;
+  }
+  .mainh {
+    padding-left: 1vh;
+    font-size: 3vh;
+  }
+  .img {
+    position: relative;
+    top: 30vh;
+    left: 16vw;
+    background-color: white;
+    border-radius: 30px;
+    padding-left: 0vw;
+  }
+  .img2 {
+    position: relative;
+    background-color: white;
+    bottom: 45vh;
+    border-radius: 30px;
+    padding-bottom: 0vh;
+    display: none;
+  }
+  .btn {
+    position: relative;
+    bottom: 10vh;
+    width: 30%;
+    height: 9vh;
+    left: 10vw;
+    background-color: white;
+    font-size: 2vh;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 0.25vh;
+    border-color: black;
+  }
+  .ft {
+    position: relative;
+    left: 3vw;
+    padding-right: 5vw;
+  }
+  .lp {
+    position: relative;
+    left: 1.5vh;
+    top: 60vh;
+    padding-right: 2vh;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 5vh;
+  }
+  footer {
+    position: relative;
+    top: 60vh;
+    width: 120%;
+    height: 18vh;
+    background-color: #dc143c;
+    border: 1px black solid;
+  }
+  .fp3 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    padding-right: 20vh;
+    color: white;
+    font-size: 1vh;
+  }
+  .fp {
+    font-size: 1.5vh;
+    padding-top: 2vh;
+    padding-left: 5vw;
+    color: white;
+  }
+  .fp1 {
+    font-size: 1.5vh;
+    padding-left: 5vw;
+    color: white;
+  }
+  .fp2 {
+    font-size: 1.5vh;
+    padding-left: 5vw;
+    color: white;
+  }
+  .fp3 {
+    font-size: 2vh;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    padding-left: 85 vw;
+    color: white;
+    font-size: 1.35vh;
+  }
+}
